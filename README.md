@@ -2,7 +2,7 @@
 
 #### Supporting repository for the PIR research project at INSA Lyon, Spring 2025.
 
-#### Supervisors: Malcolm Egan (Inria), Ioannis Chalkiadakis (CNRS)
+##### Supervisors: Malcolm Egan (Inria), Ioannis Chalkiadakis (CNRS)
 
 
 A major challenge for many institutions and companies is finding data relevant for their tasks. To tackle this challenge, many countries are now making significant investments in large-scale data exchange platforms. Nevertheless, the problem of efficiently matching data with users at scale remains a difficult problem. In this project, we ask the following question: Can embeddings of metadata associated with datasets form a basis for efficiently matching tasks with data? In this approach, a task is given in natural language (e.g., *find a dataset to train a model to classify butterflies*). Dataset metadata may include the dataset attributes (type, short description, number of attributes etc), the full dataset card on the dataset host repository (e.g. HuggingFace Datasets, Harvard Dataverse, Figshare, OSF or other similar platforms), data descriptor papers, papers reporting on the dataset usage on tasks of interest, or model-based dataset evaluation scores. An encoder of a large language model (LLM) may then be utilized to obtain embeddings for both the task and the metadata of the datasets. The goal is to develop methods to identify the relevance of datasets for a task based on the embeddings.
