@@ -117,7 +117,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Extract HuggingFace dataset cards sorted by downloads")
     parser.add_argument("-n", "--num_datasets", type=int, default=10, help="Number of dataset cards to extract")
     args = parser.parse_args()
-    dir_out = "/home/ioannis/Dropbox (Heriot-Watt University Team)/MalcolmEgan/DatasetRecommendation/"
+    dir_out = "/tmp/"
     readcards = True
 
     if readcards:
